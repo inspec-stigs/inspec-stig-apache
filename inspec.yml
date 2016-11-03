@@ -1,8 +1,8 @@
 name: apache_server
-title: InSpec Profile
+title: InSpec Profile for apache web server version 2.2
 maintainer: The Authors
 copyright: The Authors
 copyright_email: you@example.com
 license: All Rights Reserved
-summary: An InSpec Compliance Profile
-version: 0.1.0
+summary: An InSpec Compliance Profile based on the DISA STIG for Apache Web Server version 2.2
+version: 1.0.0
