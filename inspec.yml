@@ -6,3 +6,5 @@ copyright_email: you@example.com
 license: All Rights Reserved
 summary: An InSpec Compliance Profile based on the DISA STIG for Apache Web Server version 2.2
 version: 1.0.0
+supports:
+  - os: redhat

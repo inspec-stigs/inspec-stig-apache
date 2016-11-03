@@ -17,7 +17,7 @@ The intended usage of this profile would be to be uploaded to Chef Compliance.
 
 ```inspec exec path/to/controls/profiles.rb -t ssh://user@ip --password 'password' --sudo```
 
-Futher testing examples:
+Further testing examples:
 * [Profile Testing][]
 
 ## Resources ##
