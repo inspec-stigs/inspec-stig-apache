@@ -1,0 +1,10 @@
+branches:
+  except:
+    - test
+language: ruby
+cache: bundler
+sudo: false
+rvm:
+- 2.3.0
+script:
+- bundle inspec check .
