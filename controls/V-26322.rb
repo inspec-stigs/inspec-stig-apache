@@ -29,7 +29,7 @@ ls -lL /path/of/ScoreBoard.
 If the permissions on the file are not set to 644 or less restrictive, this is a finding. '
 
 # START_DESCRIBE V-26322
-  score_board = command('find / -type -name ScoreBoard')
+  score_board = command('find / -type f -name ScoreBoard').stdout.strip
   only_if do
     file(score_board).exist?
   end
